@@ -62,6 +62,7 @@ h1 {
 
 .click {
   /* button */
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -87,7 +88,7 @@ h1 {
 
 .click_main {
   /* button */
-
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9rem;
@@ -128,7 +129,7 @@ h1 {
   font-size: 14px;
   line-height: 1rem;
   letter-spacing: 0.02em;
-
+  cursor: pointer;
   color: #212121;
 }
 
@@ -168,4 +169,8 @@ h1 {
 
 .team {
   background: #f5f4fa;
+}
+
+.list_offer {
+  list-style: none;
 }
